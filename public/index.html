@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-gray-950">
+    <h1 class="text-center text-4xl font-serif text-white">
+      Random Profile Generator
+    </h1>
+    <div
+      class="flex justify-center items-center flex-col border-[20px] border-gray-800 w-[340px] h-[460px] rounded-xl my-6 mx-auto pt-0"
+    >
+      <div class="pb-4 relative">
+        <img src="assets/bg1.jpg" alt="" class="h-[150px] mt-[-80px]" />
+        <img
+          src="assets/profile-pic.png"
+          alt=""
+          id="userProfilePic"
+          class="w-36 border-2 rounded-full border-gray-700 absolute bottom-[-50px] left-[76px]"
+        />
+      </div>
+      <div class="pt-4 flex flex-col gap-2 mt-12 text-white">
+        <p id="userName" class="font-semibold">Name: James Dean</p>
+        <p id="userGender" class="font-semibold">Gender: Male</p>
+        <p id="userAge" class="font-semibold">Age: 42</p>
+        <p id="userPhone" class="font-semibold">Phone: 9876543210</p>
+      </div>
+    </div>
+    <button
+      onclick="btn()"
+      class="flex justify-center items-center text-center w-[150px] my-5 mx-auto py-4 border rounded-xl bg-blue-900 text-white font-serif hover:bg-blue-700"
+    >
+      Change Profile
+    </button>
+    <p
+      class="text-center bg-black text-white w-[250px] m-auto py-2 px-4 rounded-lg border"
+    >
+      Created by Akshay Gawde
+    </p>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
